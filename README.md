@@ -1,6 +1,7 @@
 # python_practice
 # #  
 1. A string: my_hobby = "Never stop learning!"
+
 a) Intercept the string from position 2 to position 6 (including positions 2 and 6)
 ```
 print(my_hobby[1:6])
