@@ -50,6 +50,7 @@ for n in range(100,1000):
 ```
 5. Output 99 multiplication table.
 The format is as follows:
+
 1 * 1 = 1
 
 1 * 2 = 2 2 * 2 = 4
