@@ -39,9 +39,9 @@ else:
 4. Use python to find the daffodils number from 100 to 999. The daffodil number is a 3-digit positive integer.
 The sum of each number raised to the power of 3 is equal to itself.
 
-For example: 153 = 1 * 1 * 1 + 5 * 5 * 5 + 3 * 3 * 3
+    For example: 153 = 1 * 1 * 1 + 5 * 5 * 5 + 3 * 3 * 3
 
-153 is a three-digit number, and the sum of the cubes of each number is equal to 153.
+    153 is a three-digit number, and the sum of the cubes of each number is equal to 153.
 ```
 for n in range(100,1000):
     a = n // 100
