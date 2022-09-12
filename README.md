@@ -88,4 +88,34 @@ def remove_repeatitive_elements(a_list):
 my_list = [10, 1, 2, 20, 10, 3, 2, 1, 15, 20, 44, 56, 3, 2, 1]
 remove_repeatitive_elements(my_list)
 ```
-
+7.Define a function to multiply all the numbers entered and take the remainder of 20. The number of numbers entered by the user is uncertain.
+```
+def deal(*args):
+    res = 1
+    if args:
+        for item in args:
+            res *= item
+        left = res % 20
+        print("The result of taking the remainder of 20 is: {}".format(left))
+deal(10,20,30,40,50)
+```
+8.By defining a calculator function, call the function passing in 3 parameters, 2 are the numbers to calculate and 1 is the type of calculation.
+The calculation types are: 【1】add 【2】subtract 【3】multiply 【4】divide.
+According to the parameters, select the corresponding operation and return the value of the operation.
+```
+num = int(input('Please choose one of the following 4 operation：【1】add 【2】subtract【3】multiply 【4】divide:'))
+def caculator(a,b):
+    if num ==1:
+        return a+b
+    elif num == 2:
+        return a-b
+    elif num == 3:
+        return a * b
+    elif num ==4:
+        if b != 0:
+            return a/b
+        else:
+            print('Divisor cannot be 0')
+print(caculator(100,200))
+print(caculator(1,0))
+```
