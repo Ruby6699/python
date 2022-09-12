@@ -77,3 +77,15 @@ for row in range(1,10):
     print()
 
 ```
+6.Define a function def remove_element(a_list). Remove duplicates from list [10, 1, 2, 20, 10, 3, 2, 1, 15, 20, 44, 56, 3, 2, 1]
+```
+def remove_repeatitive_elements(a_list):
+    list1=[]
+    for item in a_list:
+        if item not in list1:
+            list1.append(item)
+        print(list1)
+my_list = [10, 1, 2, 20, 10, 3, 2, 1, 15, 20, 44, 56, 3, 2, 1]
+remove_repeatitive_elements(my_list)
+```
+
