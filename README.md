@@ -111,7 +111,7 @@ for row in range(1,10):
     print()
 
 ```
-### 7.Define a function def remove_element(a_list). Remove duplicates from list [10, 1, 2, 20, 10, 3, 2, 1, 15, 20, 44, 56, 3, 2, 1]
+### 7.Define a function: def remove_element(a_list). Remove duplicates from list [10, 1, 2, 20, 10, 3, 2, 1, 15, 20, 44, 56, 3, 2, 1]
 ```
 def remove_repeatitive_elements(a_list):
     list1=[]
@@ -134,8 +134,8 @@ def deal(*args):
 deal(10,20,30,40,50)
 ```
 ### 9.By defining a calculator function, call the function passing in 3 parameters, 2 are the numbers to calculate and 1 is the type of calculation.
-The calculation types are: 【1】add 【2】subtract 【3】multiply 【4】divide.
-According to the parameters, select the corresponding operation and return the value of the operation.
+### The calculation types are: 【1】add 【2】subtract 【3】multiply 【4】divide.
+### According to the parameters, select the corresponding operation and return the value of the operation.
 ```
 num = int(input('Please choose one of the following 4 operation：【1】add 【2】subtract【3】multiply 【4】divide:'))
 def caculator(a,b):
