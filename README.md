@@ -1,6 +1,6 @@
 ### Use the print function and loop structure to output a Pyramid consisting of *.
-###
-       *
+
+###    *
 ###   ***
 ###  *****
 ### *******
