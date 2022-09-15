@@ -1,4 +1,4 @@
-### Use the print function and loop structure to output a Pyramid consisting of *.
+### 1. Use the print function and loop structure to output a Pyramid consisting of *.
 ```
     *
    ***
@@ -15,8 +15,8 @@ for row in range(1,max_level+1):
         print("*",end="")
     print()
 ```
-### Add the following dictionaries to the file in rows:
-```
+### 2. Add the following dictionaries to the file in rows:
+
 person_info = [
     {
         "name": "john",
@@ -33,7 +33,7 @@ person_info = [
         "motto": "running is on the way"
     }
 ]
-```
+
 ### Finally, get an info.txt file like this:
 ### name,age,gender,hobby,motto
 ### john, 22, male, learning, learning makes me happy
