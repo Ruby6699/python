@@ -34,10 +34,10 @@ person_info = [
     }
 ]
 
-### Finally, get an info.txt file like this:
-### name,age,gender,hobby,motto
-### john, 22, male, learning, learning makes me happy
-### lili, 20, female, running, running is on the way
+#### Finally, get an info.txt file like this:
+#### name,age,gender,hobby,motto
+#### john, 22, male, learning, learning makes me happy
+#### lili, 20, female, running, running is on the way
 
 ```
 fs = open("info.txt", mode="w", encoding="utf-8")
