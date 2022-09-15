@@ -1,8 +1,10 @@
-Use the print function and loop structure to output a Pyramid consisting of *.
+# Use the print function and loop structure to output a Pyramid consisting of *.
+#
     *
    ***
   *****
  *******
+
 ```
 for row in range(1,max_level+1):
     space_count = max_level - row
