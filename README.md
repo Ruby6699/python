@@ -51,8 +51,7 @@ for item in person_info:
 
 ```
 
-### 3. A shopping mall is on sale, all original prices are integers, if the purchase price is between $50 - 100(including 50 yuan and 100 yuan),it
-### will give a 10% discount; if the purchase price is more than $100, it will give a 20% discount. Write a program that asks for the purchase price and ### displays the discount and final price.
+### 3. A shopping mall is on sale, all original prices are integers, if the purchase price is between $50 - 100(including 50 yuan and 100 yuan),it will give a 10% discount; if the purchase price is more than $100, it will give a 20% discount. Write a program that asks for the purchase price and ### displays the discount and final price.
 ```
 price = int(input('purchase price：')
 if 50 <= price <= 100:
