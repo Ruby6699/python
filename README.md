@@ -1,9 +1,9 @@
 ### Use the print function and loop structure to output a Pyramid consisting of *.
 ```
-###    *
-###   ***
-###  *****
-### *******
+    *
+   ***
+  *****
+ *******
 ```
 ```
 for row in range(1,max_level+1):
