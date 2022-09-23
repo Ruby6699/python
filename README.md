@@ -152,3 +152,30 @@ def caculator(a,b):
 print(caculator(100,200))
 print(caculator(1,0))
 ```
+### 10. Encapsulate an employee class:
+### Content: employee name, working years, registered residence city, salary, job name
+### Method 1: Calculate the total annual salary of employees
+### Method 2: Print the name and working years of the employee: The working years of the employee XXX are XX
+### Instantiate 2 employees, and call Method 1 and Method 2 respectively
+```
+class Employee:
+    def __init__(self,name,work_years,born_city,salary,job_name):
+        self.name = name
+        self.work_years = work_years
+        self.born_city = born_city
+        self.salary = salary
+        self.position_name = job_name
+    def tol_salary(self):
+        sum = int(self.salary) * 12
+        print(f'annual payroll is {sum}')
+
+    def p(self):
+        print(f'{self.name},工作{self.work_years}年')
+p1 = Employee('Nova','6','brisbane','13000','engineer')
+p1.tol_salary()
+p1.p()
+
+p2 = Employee('Edward','10','sydney','20000','senior engineer')
+p2.tol_salary()
+p2.p()
+```
