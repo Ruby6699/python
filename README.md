@@ -133,8 +133,8 @@ def deal(*args):
 deal(10,20,30,40,50)
 ```
 ### 9.By defining a calculator function, call the function passing in 3 parameters, 2 are the numbers to calculate and 1 is the type of calculation.
-### The calculation types are: 【1】add 【2】subtract 【3】multiply 【4】divide.
-### According to the parameters, select the corresponding operation and return the value of the operation.
+#### The calculation types are: 【1】add 【2】subtract 【3】multiply 【4】divide.
+#### According to the parameters, select the corresponding operation and return the value of the operation.
 ```
 num = int(input('Please choose one of the following 4 operation：【1】add 【2】subtract【3】multiply 【4】divide:'))
 def caculator(a,b):
@@ -153,10 +153,10 @@ print(caculator(100,200))
 print(caculator(1,0))
 ```
 ### 10. Encapsulate an employee class:
-### Content: employee name, working years, registered residence city, salary, job name
-### Method 1: Calculate the total annual salary of employees
-### Method 2: Print the name and working years of the employee: The working years of the employee XXX are XX
-### Instantiate 2 employees, and call Method 1 and Method 2 respectively
+#### Content: employee name, working years, registered residence city, salary, job name
+#### Method 1: Calculate the total annual salary of employees
+#### Method 2: Print the name and working years of the employee: The working years of the employee XXX are XX
+#### Instantiate 2 employees, and call Method 1 and Method 2 respectively
 ```
 class Employee:
     def __init__(self,name,work_years,born_city,salary,job_name):
@@ -170,7 +170,8 @@ class Employee:
         print(f'annual payroll is {sum}')
 
     def p(self):
-        print(f'{self.name},工作{self.work_years}年')
+        print(f'The working years of {self.name} is {self.work_years}')
+        
 p1 = Employee('Nova','6','brisbane','13000','engineer')
 p1.tol_salary()
 p1.p()
