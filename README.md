@@ -183,12 +183,12 @@ p2.p()
 
 ### 11. Define a login test case named class LoginCase.
 #### Each instance is a login test case.
-#### attribute:case_name, expected_result,actual_result
+#### Attribute: case_name, expected_result,actual_result
 #### Method 1: Run the test case
 #### Description: There are 2 parameters: username and password.
 #### That can log in successfully: Username: py37, password: 666666.
 #### Determine whether the login is successful by whether the user name and password are correct or not. Return the actual result.
-#### ps: Non-compliance can be considered: password length is not 6 digits/password incorrect/username is incorrect.
+#### Ps: Non-compliance can be considered: password length is not 6 digits/password incorrect/username is incorrect.
 #### Method 2: Compare the expected_result and the actual result.
 #### Instantiate 2 test cases, and run the instance (call the method), render the method (call the result)
 ```
